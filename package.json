@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-contentful-blog",
+  "private": true,
+  "description": "Gatsby Blog with Contentful integration",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "13.2.0",
+    "gatsby": "2.6.0",
+    "gatsby-source-contentful": "2.0.62",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "keywords": [
+    "gatsby",
+    "contentful",
+    "blog"
+  ]
+}

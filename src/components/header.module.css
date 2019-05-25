@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap");
+
+.container {
+  margin-bottom: 3rem;
+}
+
+.title {
+  text-decoration: none;
+  color: #000;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.5rem;
+}
+
+.title h1 {
+  margin-top: 0.5rem;
+}
+
+.navList {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-bottom: 2rem;
+}
+
+.navItem {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.navItem:hover {
+  color: #333;
+  font-weight: bold;
+}
+
+.navItem-active {
+  color: #000;
+}
