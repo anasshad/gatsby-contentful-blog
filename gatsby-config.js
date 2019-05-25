@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby App",
+    title: "Gatsby Contentful Blog",
     author: "Anas Shad",
   },
   plugins: [
